@@ -985,10 +985,10 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD4
 	this.instance_6 = new lib.HEAD4();
-	this.instance_6.setTransform(-141.25,125.6,0.8923,0.8923,0,0,0,-0.4,0.5);
+	this.instance_6.setTransform(-141.25,135.6,0.8923,0.8923,0,0,0,-0.4,0.5);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(202).to({_off:false},0).to({regX:0.3,regY:0.2,x:85.1,y:68.45},5,cjs.Ease.quadOut).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(202).to({_off:false},0).to({regX:0.3,regY:0.2,x:85.1,y:78.45},5,cjs.Ease.quadOut).wait(45));
 
 	// BLUE
 	this.instance_7 = new lib.BLUE();
@@ -998,7 +998,7 @@ if (reversed == null) { reversed = false; }
 
 	// PIC
 	this.instance_8 = new lib.PIC();
-	this.instance_8.setTransform(79.95,320.25,0.9,0.9);
+	this.instance_8.setTransform(83.95,328.25,0.85,0.85);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(252));
 
